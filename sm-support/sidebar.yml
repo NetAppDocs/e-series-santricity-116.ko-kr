@@ -1,0 +1,149 @@
+---
+section: sm-support
+title: 지원
+entries:
+- title: 지원 센터
+  entries:
+  - title: 개념
+    entries:
+    - title: AutoSupport 기능 개요
+      url: "/sm-support/autosupport-feature-overview.html"
+    - title: AutoSupport 기능의 워크플로
+      url: "/sm-support/workflow-for-autosupport.html"
+  - title: 방법
+    entries:
+    - title: 스토리지 배열 정보를 봅니다
+      entries:
+      - title: 스토리지 배열 프로파일을 봅니다
+        url: "/sm-support/view-storage-array-profile.html"
+      - title: 소프트웨어 및 펌웨어 인벤토리를 봅니다
+        url: "/sm-support/view-software-and-firmware-inventory.html"
+    - title: 진단 데이터를 수집합니다
+      entries:
+      - title: 지원 데이터를 수동으로 수집합니다
+        url: "/sm-support/collect-support-data-manually.html"
+      - title: 복구 지원 파일을 검색합니다
+        url: "/sm-support/retrieve-recovery-support-files.html"
+      - title: 추적 버퍼를 검색합니다
+        url: "/sm-support/retrieve-trace-buffers.html"
+      - title: 드라이브 데이터를 수집합니다
+        url: "/sm-support/collect-drive-data.html"
+      - title: 입출력 경로 통계를 수집합니다
+        url: "/sm-support/collect-i-o-path-statistics.html"
+      - title: 상태 이미지를 검색합니다
+        url: "/sm-support/retrieve-health-image.html"
+    - title: 스토리지 배열 상태에 대한 복구 작업을 수행합니다
+      entries:
+      - title: 읽을 수 없는 섹터 로그를 봅니다
+        url: "/sm-support/view-unreadable-sectors-log.html"
+      - title: 드라이브 포트를 다시 활성화합니다
+        url: "/sm-support/re-enable-drive-ports.html"
+      - title: 복구 모드를 해제합니다
+        url: "/sm-support/clear-recovery-mode.html"
+    - title: iSCSI 연결을 관리합니다
+      entries:
+      - title: iSCSI 통계 패키지를 봅니다
+        url: "/sm-support/view-iscsi-statistics-packages-support.html"
+      - title: 다양한 유형의 iSCSI 통계를 봅니다
+        url: "/sm-support/view-the-different-types-of-iscsi-statistics.html"
+        entries:
+        - title: MAC 전송 및 MAC 수신 통계
+          url: "/sm-support/mac-transmit-and-mac-receive-statistics.html"
+        - title: 이더넷 TCP/IP 통계
+          url: "/sm-support/ethernet-tcp-ip-statistics.html"
+        - title: iSCSI 타겟 통계 및 로컬 이니시에이터 통계
+          url: "/sm-support/iscsi-target-statistics-and-local-initiator-statistics.html"
+        - title: DCBX 작업 상태 통계
+          url: "/sm-support/dcbx-operational-state-statistics.html"
+        - title: LLDP TLV 통계
+          url: "/sm-support/lldp-tlv-statistics.html"
+        - title: DCBX TLV 통계입니다
+          url: "/sm-support/dcbx-tlv-statistics.html"
+      - title: iSCSI 세션을 봅니다
+        url: "/sm-support/view-iscsi-sessions-support.html"
+      - title: iSCSI 세션을 종료합니다
+        url: "/sm-support/end-iscsi-session-support.html"
+      - title: InfiniBand 통계를 통해 iSER 보기
+        url: "/sm-support/view-iser-over-infiniband-statistics-support.html"
+    - title: NVMe 연결을 관리합니다
+      entries:
+      - title: NVMe over Fabrics 통계 보기
+        url: "/sm-support/view-nvme-over-fabrics-statistics-support.html"
+    - title: AutoSupport 관리
+      entries:
+      - title: AutoSupport 기능을 활성화 또는 비활성화합니다
+        url: "/sm-support/enable-or-disable-autosupport-features.html"
+      - title: AutoSupport 유지 관리 창을 활성화합니다
+        url: "/sm-support/enable-autosupport-maintenance-window.html"
+      - title: AutoSupport 유지 보수 창을 비활성화합니다
+        url: "/sm-support/disable-autosupport-maintenance-window.html"
+      - title: AutoSupport 전달 방법을 구성합니다
+        url: "/sm-support/configure-autosupport-delivery-method.html"
+      - title: AutoSupport 디스패치를 예약합니다
+        url: "/sm-support/schedule-autosupport-dispatches.html"
+      - title: AutoSupport 디스패치를 보냅니다
+        url: "/sm-support/send-autosupport-dispatches.html"
+      - title: AutoSupport 상태를 봅니다
+        url: "/sm-support/view-autosupport-status.html"
+      - title: AutoSupport 로그를 봅니다
+        url: "/sm-support/view-autosupport-log.html"
+  - title: FAQ 를 참조하십시오
+    entries:
+    - title: 어떤 데이터를 수집하고 있습니까?
+      url: "/sm-support/which-data-am-i-collecting-in-a-customer-support-bundle.html"
+    - title: 읽을 수 없는 섹터 데이터는 무엇을 보여 줍니까?
+      url: "/sm-support/what-does-unreadable-sectors-data-show-me.html"
+    - title: 건강 이미지란 무엇입니까?
+      url: "/sm-support/what-is-a-health-image.html"
+    - title: iSCSI를 구성하거나 진단하려면 어떻게 해야 합니까?
+      url: "/sm-support/what-else-do-i-need-to-do-to-configure-or-diagnose-iscsi.html"
+    - title: AutoSupport 기능은 어떤 기능을 합니까?
+      url: "/sm-support/what-do-the-autosupport-features-do.html"
+    - title: AutoSupport 기능을 통해 수집되는 데이터 유형은 무엇입니까?
+      url: "/sm-support/what-type-of-data-is-collected-through-autosupport.html"
+    - title: AutoSupport 기능의 전달 방법을 구성하려면 어떻게 합니까?
+      url: "/sm-support/how-do-i-configure-the-delivery-method-for-autosupport.html"
+- title: 이벤트 로그
+  entries:
+  - title: 개념
+    entries:
+    - title: 중요 이벤트
+      url: "/sm-support/critical-events.html"
+    - title: 이벤트 로그
+      url: "/sm-support/event-log.html"
+  - title: 방법
+    entries:
+    - title: 이벤트 로그를 사용하여 이벤트를 봅니다
+      url: "/sm-support/view-events-using-the-event-log.html"
+- title: 업그레이드 센터
+  entries:
+  - title: 개념
+    entries:
+    - title: 컨트롤러 소프트웨어 및 펌웨어 업그레이드
+      url: "/sm-support/controller-software-and-firmware-upgrades.html"
+    - title: 컨트롤러 소프트웨어 및 펌웨어 업그레이드를 위한 워크플로우
+      url: "/sm-support/workflow-for-controller-software-and-firmware-upgrade.html"
+    - title: 드라이브 펌웨어의 업그레이드
+      url: "/sm-support/drive-firmware-upgrades.html"
+  - title: 방법
+    entries:
+    - title: 소프트웨어 및 펌웨어를 업그레이드합니다
+      url: "/sm-support/upgrade-controller-software-and-firmware.html"
+    - title: 컨트롤러 소프트웨어 및 펌웨어를 활성화합니다
+      url: "/sm-support/activate-controller-software-and-firmware.html"
+    - title: 드라이브 펌웨어를 업그레이드합니다
+      url: "/sm-support/upgrade-drive-firmware.html"
+    - title: 가능한 소프트웨어 및 펌웨어 업그레이드 오류를 검토합니다
+      url: "/sm-support/review-the-possible-software-and-firmware-upgrade-errors.html"
+  - title: FAQ 를 참조하십시오
+    entries:
+    - title: SANtricity OS 소프트웨어를 업그레이드하기 전에 알아야 할 내용은 무엇입니까?
+      url: "/sm-support/what-do-i-need-to-know-before-upgrading-the-santricity-os-software.html"
+    - title: IOM 자동 동기화를 일시 중단하기 전에 알아야 할 내용은 무엇입니까?
+      url: "/sm-support/what-do-i-need-to-know-before-suspending-iom-auto-synchronization.html"
+    - title: 펌웨어 업그레이드가 너무 느리게 진행되는 이유는 무엇입니까?
+      url: "/sm-support/why-is-my-firmware-upgrade-progressing-so-slowly.html"
+    - title: 드라이브 펌웨어를 업그레이드하기 전에 알아야 할 내용은 무엇입니까?
+      url: "/sm-support/what-do-i-need-to-know-before-upgrading-drive-firmware.html"
+    - title: 수행할 업그레이드 유형을 선택하려면 어떻게 해야 합니까?
+      url: "/sm-support/how-do-i-choose-which-type-of-upgrade-to-perform.html"

@@ -1,0 +1,110 @@
+---
+permalink: sm-settings/iscsi-terminology.html 
+sidebar: sidebar 
+keywords: iscsi, storage array, terms apply 
+summary: iSCSI 용어가 스토리지 어레이에 어떻게 적용되는지 알아보십시오. 
+---
+= iSCSI 용어
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+iSCSI 용어가 스토리지 어레이에 어떻게 적용되는지 알아보십시오.
+
+[cols="1a,3a"]
+|===
+| 기간 | 설명 
+
+
+ a| 
+CHAP
+ a| 
+CHAP(Challenge Handshake Authentication Protocol) 메서드는 초기 링크 중에 대상 및 이니시에이터의 ID를 확인합니다. 인증은 CHAP__secret__이라는 공유 보안 키를 기반으로 합니다.
+
+
+
+ a| 
+컨트롤러
+ a| 
+컨트롤러는 보드, 펌웨어 및 소프트웨어로 구성됩니다. 드라이브를 제어하고 System Manager 기능을 구현합니다.
+
+
+
+ a| 
+DHCP를 선택합니다
+ a| 
+DHCP(Dynamic Host Configuration Protocol)는 IP 주소와 같은 네트워크 구성 매개 변수를 동적으로 배포하기 위해 IP(인터넷 프로토콜) 네트워크에서 사용되는 프로토콜입니다.
+
+
+
+ a| 
+IB
+ a| 
+IB(InfiniBand)는 고성능 서버와 스토리지 시스템 간의 데이터 전송을 위한 통신 표준입니다.
+
+
+
+ a| 
+ICMP ping 응답
+ a| 
+ICMP(Internet Control Message Protocol)는 네트워크 컴퓨터의 운영 체제에서 메시지를 보내는 데 사용되는 프로토콜입니다. ICMP 메시지는 호스트에 연결할 수 있는지 여부와 해당 호스트와 패킷을 주고 받는 데 걸리는 시간을 결정합니다.
+
+
+
+ a| 
+IQN을 선택합니다
+ a| 
+IQN(iSCSI Qualified Name) 식별자는 iSCSI 이니시에이터 또는 iSCSI 타겟의 고유한 이름입니다.
+
+
+
+ a| 
+iSER
+ a| 
+iSER(iSCSI Extensions for RDMA)은 InfiniBand 또는 이더넷과 같은 RDMA 전송을 통해 작동하는 iSCSI 프로토콜을 확장하는 프로토콜입니다.
+
+
+
+ a| 
+iSNS를 선택합니다
+ a| 
+iSNS(Internet Storage Name Service)는 TCP/IP 네트워크에서 iSCSI 및 Fibre Channel 디바이스를 자동으로 검색, 관리 및 구성할 수 있는 프로토콜입니다.
+
+
+
+ a| 
+MAC 주소
+ a| 
+MAC 주소(Media Access Control Identifier)는 동일한 물리적 전송 네트워크 인터페이스의 두 포트를 연결하는 별도의 논리 채널을 구분하기 위해 이더넷에서 사용됩니다.
+
+
+
+ a| 
+관리 클라이언트
+ a| 
+관리 클라이언트는 System Manager 액세스를 위해 브라우저가 설치된 컴퓨터입니다.
+
+
+
+ a| 
+MTU
+ a| 
+MTU(Maximum Transmission Unit)는 네트워크에서 전송할 수 있는 가장 큰 크기의 패킷 또는 프레임입니다.
+
+
+
+ a| 
+RDMA 를 참조하십시오
+ a| 
+RDMA(Remote Direct Memory Access)는 네트워크 컴퓨터가 두 컴퓨터의 운영 체제와 관계없이 주 메모리에서 데이터를 교환할 수 있도록 하는 기술입니다.
+
+
+
+ a| 
+명명되지 않은 검색 세션
+ a| 
+명명되지 않은 검색 세션 옵션이 활성화된 경우 iSCSI 초기자는 컨트롤러의 정보를 검색하기 위해 타겟 IQN을 지정할 필요가 없습니다.
+
+|===

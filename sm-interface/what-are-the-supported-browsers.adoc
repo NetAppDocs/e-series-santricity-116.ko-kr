@@ -1,0 +1,54 @@
+---
+permalink: sm-interface/what-are-the-supported-browsers.html 
+sidebar: sidebar 
+keywords: system manager, supports, browser, version 
+summary: System Manager는 이러한 브라우저 버전을 지원합니다. 
+---
+= 지원되는 브라우저는 무엇입니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager는 이러한 브라우저 버전을 지원합니다.
+
+[cols="2a,1a"]
+|===
+| 브라우저 | 최소 버전 
+
+
+ a| 
+Google Chrome
+ a| 
+47
+
+
+
+ a| 
+Microsoft Internet Explorer를 참조하십시오
+ a| 
+11
+
+
+
+ a| 
+Microsoft Edge를 참조하십시오
+ a| 
+EdgeHTML 12
+
+
+
+ a| 
+Mozilla Firefox
+ a| 
+31
+
+
+
+ a| 
+사파리
+ a| 
+9
+
+|===

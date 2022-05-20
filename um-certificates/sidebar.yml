@@ -1,0 +1,66 @@
+---
+section: um-certificates
+title: 인증서 및 인증
+entries:
+- title: 인증서 관리
+  entries:
+  - title: 개념
+    entries:
+    - title: 인증서 작동 방식
+      url: "/um-certificates/how-certificates-work-unified.html"
+    - title: 인증서 용어
+      url: "/um-certificates/certificate-terminology-unified.html"
+  - title: 방법
+    entries:
+    - title: CA 서명 인증서를 사용합니다
+      url: "/um-certificates/use-ca-signed-certificate-um.html"
+    - title: 관리 인증서를 재설정합니다
+      url: "/um-certificates/reset-management-certificates-unified.html"
+    - title: 스토리지에 대한 인증서를 가져옵니다
+      url: "/um-certificates/import-array-certificates-unified.html"
+    - title: 인증서를 봅니다
+      url: "/um-certificates/view-certificates-unified.html"
+    - title: 인증서를 내보냅니다
+      url: "/um-certificates/export-certificates-unified.html"
+    - title: 신뢰할 수 있는 인증서를 삭제합니다
+      url: "/um-certificates/delete-trusted-certificates-unified.html"
+    - title: 신뢰할 수 없는 인증서를 확인합니다
+      url: "/um-certificates/resolve-untrusted-certificates-certificate-page.html"
+- title: 액세스 관리
+  entries:
+  - title: 개념
+    entries:
+    - title: 액세스 관리 작동 방식
+      url: "/um-certificates/how-access-management-works-unified.html"
+    - title: Access Management(액세스 관리) 용어
+      url: "/um-certificates/access-management-terminology-unified.html"
+    - title: 매핑된 역할에 대한 권한
+      url: "/um-certificates/permissions-for-mapped-roles-unified.html"
+    - title: 로컬 사용자 역할을 사용하여 액세스 관리
+      url: "/um-certificates/access-management-with-local-user-roles-unified.html"
+    - title: 디렉토리 서비스를 통한 액세스 관리
+      url: "/um-certificates/access-management-with-directory-services-unified.html"
+  - title: 방법
+    entries:
+    - title: 로컬 사용자 역할을 봅니다
+      url: "/um-certificates/view-local-user-roles-unified.html"
+    - title: 암호를 변경합니다
+      url: "/um-certificates/change-passwords-unified.html"
+    - title: 로컬 사용자 암호 설정을 변경합니다
+      url: "/um-certificates/change-local-user-passwords-settings-unified.html"
+    - title: 디렉토리 서버를 추가합니다
+      url: "/um-certificates/add-directory-server-unified.html"
+    - title: 디렉토리 서버 설정 및 역할 매핑을 편집합니다
+      url: "/um-certificates/edit-directory-server-settings-unified.html"
+    - title: 디렉토리 서버를 제거합니다
+      url: "/um-certificates/remove-directory-server-unified.html"
+  - title: FAQ 를 참조하십시오
+    entries:
+    - title: 로그인할 수 없는 이유는 무엇입니까?
+      url: "/um-certificates/why-cant-i-log-in-unified.html"
+    - title: 디렉토리 서버를 추가하기 전에 알아야 할 사항은 무엇입니까?
+      url: "/um-certificates/what-do-i-need-to-know-before-adding-a-directory-server-unified.html"
+    - title: 스토리지 어레이 역할에 매핑하는 방법에 대해 알아야 할 내용은 무엇입니까?
+      url: "/um-certificates/what-do-i-need-to-know-about-mapping-storage-array-roles-unified.html"
+    - title: 로컬 사용자는 무엇입니까?
+      url: "/um-certificates/what-are-the-local-users.html"

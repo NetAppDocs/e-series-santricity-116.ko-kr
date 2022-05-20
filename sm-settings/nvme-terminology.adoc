@@ -1,0 +1,110 @@
+---
+permalink: sm-settings/nvme-terminology.html 
+sidebar: sidebar 
+keywords: nvme, terms, storage array 
+summary: NVMe 용어가 스토리지 어레이에 어떻게 적용되는지 알아보십시오. 
+---
+= NVMe 관련 용어
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NVMe 용어가 스토리지 어레이에 어떻게 적용되는지 알아보십시오.
+
+[cols="1a,3a"]
+|===
+| 기간 | 설명 
+
+
+ a| 
+InfiniBand
+ a| 
+IB(InfiniBand)는 고성능 서버와 스토리지 시스템 간의 데이터 전송을 위한 통신 표준입니다.
+
+
+
+ a| 
+네임스페이스
+ a| 
+네임스페이스는 블록 액세스를 위해 포맷된 NVM 스토리지입니다. 스토리지 배열의 볼륨과 관련된 SCSI의 논리 유닛과 유사합니다.
+
+
+
+ a| 
+네임스페이스 ID입니다
+ a| 
+네임스페이스 ID는 네임스페이스에 대한 NVMe 컨트롤러의 고유 식별자이며 1에서 255 사이의 값으로 설정할 수 있습니다. SCSI의 LUN(Logical Unit Number)과 유사합니다.
+
+
+
+ a| 
+NQN
+ a| 
+NVMe 정규화된 이름(NQN)은 원격 스토리지 대상(스토리지 어레이)을 식별하는 데 사용됩니다.
+
+
+
+ a| 
+NVM
+ a| 
+NVM(비휘발성 메모리)은 다양한 유형의 스토리지 장치에서 사용되는 영구 메모리입니다.
+
+
+
+ a| 
+NVMe를 참조하십시오
+ a| 
+NVMe(비휘발성 메모리 익스프레스)는 SSD 드라이브와 같은 플래시 기반 스토리지 장치를 위해 설계된 인터페이스입니다. NVMe는 이전 논리 장치 인터페이스와 비교하여 I/O 오버헤드를 줄이고 성능 개선을 포함합니다.
+
+
+
+ a| 
+NVMe - oF
+ a| 
+NVMe-oF(Non-Volatile Memory Express over Fabrics)는 NVMe 명령 및 데이터가 호스트와 스토리지 간의 네트워크를 통해 전송되도록 하는 사양입니다.
+
+
+
+ a| 
+NVMe 컨트롤러
+ a| 
+호스트 연결 프로세스 중에 NVMe 컨트롤러가 생성됩니다. 스토리지 배열의 네임스페이스와 호스트 간의 액세스 경로를 제공합니다.
+
+
+
+ a| 
+NVMe 전담팀
+ a| 
+큐는 NVMe 인터페이스를 통해 명령 및 메시지를 전달하는 데 사용됩니다.
+
+
+
+ a| 
+NVMe 하위 시스템
+ a| 
+NVMe 호스트 연결이 있는 스토리지 어레이
+
+
+
+ a| 
+RDMA 를 참조하십시오
+ a| 
+RDMA(Remote Direct Memory Access)를 사용하면 네트워크 인터페이스 카드(NIC) 하드웨어에 전송 프로토콜을 구현하여 서버 내외부로 데이터를 더욱 직접 이동할 수 있습니다.
+
+
+
+ a| 
+RoCE
+ a| 
+RoCE(RDMA over Converged Ethernet)는 이더넷 네트워크를 통한 RDMA(Remote Direct Memory Access)를 지원하는 네트워크 프로토콜입니다.
+
+
+
+ a| 
+SSD를 지원합니다
+ a| 
+SSD(Solid-State Disk)는 데이터를 영구적으로 저장하기 위해 솔리드 스테이트 메모리(플래시)를 사용하는 데이터 스토리지 장치입니다. SSD는 기존의 하드 드라이브를 에뮬레이트하며 하드 드라이브에서 사용하는 것과 동일한 인터페이스로 사용할 수 있습니다.
+
+|===

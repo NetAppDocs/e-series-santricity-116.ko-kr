@@ -1,0 +1,14 @@
+---
+permalink: sm-support/view-the-different-types-of-iscsi-statistics.html 
+sidebar: sidebar 
+keywords: review, different, sets, statistics, raw, baseline, ethernet, target, local, initiator, protocol, operational, state 
+summary: '이더넷 MAC 통계, 이더넷 TCP/IP 통계, 타겟(프로토콜) 통계, 로컬 초기자(프로토콜) 통계, DCBX 작업 상태 통계, LLDP TLV 통계 및 DCBX TLV 통계와 같은 다양한 통계 집합을 원시 또는 기준 통계로 검토할 수 있습니다.' 
+---
+= 다양한 유형의 iSCSI 통계를 봅니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이더넷 MAC 통계, 이더넷 TCP/IP 통계, 타겟(프로토콜) 통계, 로컬 초기자(프로토콜) 통계, DCBX 작업 상태 통계, LLDP TLV 통계 및 DCBX TLV 통계와 같은 다양한 통계 집합을 원시 또는 기준 통계로 검토할 수 있습니다.

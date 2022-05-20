@@ -1,0 +1,192 @@
+---
+permalink: sm-support/ethernet-tcp-ip-statistics.html 
+sidebar: sidebar 
+keywords: ethernet, statistics, definition, statistics, transmitted, byte, expired 
+summary: 이더넷 TCP/IP 통계 
+---
+= 이더넷 TCP/IP 통계
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+이더넷 TCP/IP 통계를 선택하면 이 표의 TCP 통계가 나타납니다. 각 통계를 원시 통계 또는 기준 통계로 볼 수 있습니다.
+
+[cols="2*"]
+|===
+| 통계 | 정의 
+
+
+ a| 
+TxS
+ a| 
+전송된 세그먼트 수입니다
+
+
+
+ a| 
+TxB
+ a| 
+전송된 바이트 수입니다
+
+
+
+ a| 
+RTxTE
+ a| 
+재전송 timer expired count
+
+
+
+ a| 
+TxDACK
+ a| 
+전송 지연 ACK 수
+
+
+
+ a| 
+TxACK
+ a| 
+전송 ACK 수
+
+
+
+ a| 
+Rxs
+ a| 
+수신된 세그먼트 수입니다
+
+
+
+ a| 
+RXB
+ a| 
+바이트 수가 수신되었습니다
+
+
+
+ a| 
+RxDACK
+ a| 
+중복 ACK 수를 수신했습니다
+
+
+
+ a| 
+RxACK
+ a| 
+ACK count를 수신함
+
+
+
+ a| 
+RxSEC
+ a| 
+세그먼트 오류 수가 수신되었습니다
+
+
+
+ a| 
+RxSOOC
+ a| 
+수신된 세그먼트 주문 수 초과
+
+
+
+ a| 
+RxWP
+ a| 
+수신 윈도우 프로브 수입니다
+
+
+
+ a| 
+RxWU
+ a| 
+윈도우 업데이트 카운트를 수신했습니다
+
+|===
+이더넷 TCP/IP 통계를 선택하면 이 표의 IP 통계가 나타납니다.
+
+[cols="2*"]
+|===
+| 통계 | 정의 
+
+
+ a| 
+TxP
+ a| 
+전송된 패킷 수입니다
+
+
+
+ a| 
+TxB
+ a| 
+전송된 바이트 수입니다
+
+
+
+ a| 
+TxF
+ a| 
+전송된 단편 카운트
+
+
+
+ a| 
+RxP
+ a| 
+수신된 패킷 수 수신된 IPv4 패킷 수를 표시하려면 * Show IPv4 * 를 선택합니다. 수신된 IPv6 패킷 수를 표시하려면 * IPv6 표시 * 를 선택합니다.
+
+
+
+ a| 
+RXB
+ a| 
+바이트 수가 수신되었습니다
+
+
+
+ a| 
+RxF
+ a| 
+조각 수를 받았습니다
+
+
+
+ a| 
+RxPE
+ a| 
+패킷 오류 카운트를 수신했습니다
+
+
+
+ a| 
+재해 복구
+ a| 
+데이터그램 재조립 수
+
+
+
+ a| 
+DRE-OLFC
+ a| 
+데이터그램 재조립 오류, 중복된 조각 수
+
+
+
+ a| 
+DRE-OOFC
+ a| 
+데이터그램 재조립 오류, 주문되지 않았습니다 조각 수
+
+
+
+ a| 
+DRE - TOC
+ a| 
+데이터그램 재조립 오류, 시간 초과 수
+
+|===

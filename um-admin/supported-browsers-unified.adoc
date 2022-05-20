@@ -1,0 +1,61 @@
+---
+permalink: um-admin/supported-browsers-unified.html 
+sidebar: sidebar 
+keywords: santricity, unified, manager, access, several, types, browsers 
+summary: SANtricity Unified Manager는 다양한 유형의 브라우저에서 액세스할 수 있습니다. 
+---
+= 지원되는 브라우저
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity Unified Manager는 다양한 유형의 브라우저에서 액세스할 수 있습니다.
+
+다음 브라우저 및 버전이 지원됩니다.
+
+[cols="2*"]
+|===
+| 브라우저 | 최소 버전 
+
+
+ a| 
+Google Chrome
+ a| 
+47
+
+
+
+ a| 
+Microsoft Internet Explorer를 참조하십시오
+ a| 
+11
+
+
+
+ a| 
+Microsoft Edge를 참조하십시오
+ a| 
+EdgeHTML 12
+
+
+
+ a| 
+Mozilla Firefox
+ a| 
+31
+
+
+
+ a| 
+사파리
+ a| 
+9
+
+|===
+[NOTE]
+====
+웹 서비스 프록시는 설치되어 브라우저에서 사용할 수 있어야 합니다.
+
+====

@@ -1,0 +1,13 @@
+---
+permalink: sm-mirroring/generic-concepts.html 
+sidebar: sidebar 
+keywords: concepts 
+summary: 개념 
+---
+= 개념
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+* 자세히 알아보기... *

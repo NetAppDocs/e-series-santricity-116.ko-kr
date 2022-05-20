@@ -1,0 +1,140 @@
+---
+section: sm-hardware
+title: 하드웨어
+entries:
+- title: 쉘프
+  entries:
+  - title: 개념
+    entries:
+    - title: 하드웨어 페이지 개요
+      url: "/sm-hardware/hardware-page-overview.html"
+    - title: 하드웨어 용어
+      url: "/sm-hardware/hardware-terminology.html"
+  - title: 방법
+    entries:
+    - title: 하드웨어 구성 요소 보기
+      url: "/sm-hardware/view-hardware-components.html"
+    - title: 부품 상태를 표시하거나 숨깁니다
+      url: "/sm-hardware/show-or-hide-component-status.html"
+    - title: 전면과 후면 보기 사이를 전환합니다
+      url: "/sm-hardware/switch-between-front-and-back-views.html"
+    - title: 쉘프의 보기 순서를 변경합니다
+      url: "/sm-hardware/change-view-order-of-shelves.html"
+    - title: 선반 로케이터 조명을 켭니다
+      url: "/sm-hardware/turn-on-shelf-locator-light.html"
+    - title: 쉘프 ID를 변경합니다
+      url: "/sm-hardware/change-shelf-ids.html"
+    - title: 쉘프 구성요소 상태 및 설정을 확인합니다
+      url: "/sm-hardware/view-shelf-component-status-and-settings.html"
+    - title: 배터리 학습 주기를 업데이트합니다
+      url: "/sm-hardware/update-battery-learn-cycles.html"
+  - title: FAQ 를 참조하십시오
+    entries:
+    - title: 선반 손실 방지 및 서랍 손실 방지란 무엇입니까?
+      url: "/sm-hardware/what-is-shelf-loss-protection-and-drawer-loss-protection.html"
+    - title: 배터리 학습 사이클이란 무엇입니까?
+      url: "/sm-hardware/what-are-battery-learn-cycles.html"
+- title: 컨트롤러
+  entries:
+  - title: 개념
+    entries:
+    - title: 컨트롤러 용어
+      url: "/sm-hardware/controller-terminology.html"
+    - title: 컨트롤러 상태
+      url: "/sm-hardware/controller-states.html"
+    - title: IP 주소 할당 고려 사항
+      url: "/sm-hardware/considerations-for-assigning-ip-addresses.html"
+  - title: 방법
+    entries:
+    - title: 관리 포트를 구성합니다
+      url: "/sm-hardware/configure-management-ports.html"
+    - title: iSCSI 포트를 구성합니다
+      url: "/sm-hardware/configure-iscsi-ports-hardware.html"
+    - title: InfiniBand 포트를 통해 iSER 구성
+      url: "/sm-hardware/configure-iser-over-infiniband-ports-hardware.html"
+    - title: InfiniBand 포트를 통해 NVMe를 구성합니다
+      url: "/sm-hardware/configure-nvme-over-infiniband-ports-hardware.html"
+    - title: NVMe over RoCE 포트를 구성합니다
+      url: "/sm-hardware/configure-nvme-over-roce-ports-hardware.html"
+    - title: NTP 서버 주소를 구성합니다
+      url: "/sm-hardware/configure-ntp-server-addresses.html"
+    - title: DNS 서버 주소를 구성합니다
+      url: "/sm-hardware/configure-dns-server-addresses.html"
+    - title: 컨트롤러 설정을 봅니다
+      url: "/sm-hardware/view-controller-settings.html"
+    - title: 원격 로그인 허용
+      url: "/sm-hardware/allow-remote-login.html"
+    - title: 컨트롤러를 온라인으로 설정합니다
+      url: "/sm-hardware/place-controller-online.html"
+    - title: 컨트롤러를 오프라인으로 전환합니다
+      url: "/sm-hardware/place-controller-offline.html"
+    - title: 컨트롤러를 서비스 모드로 전환합니다
+      url: "/sm-hardware/place-controller-in-service-mode.html"
+    - title: 컨트롤러를 재설정(재부팅)합니다
+      url: "/sm-hardware/reset-reboot-controller.html"
+  - title: FAQ 를 참조하십시오
+    entries:
+    - title: 자동 협상이란 무엇입니까?
+      url: "/sm-hardware/what-is-auto-negotiation.html"
+    - title: IPv6 상태 비저장 주소 자동 구성이란 무엇입니까?
+      url: "/sm-hardware/what-is-ipv6-stateless-address-auto-configuration.html"
+    - title: DHCP 또는 수동 구성 중 어떤 것을 선택합니까?
+      url: "/sm-hardware/which-do-i-choose-dhcp-or-manual-configuration.html"
+    - title: DHCP 서버란 무엇입니까?
+      url: "/sm-hardware/what-is-a-dhcp-server.html"
+    - title: DHCP 서버를 어떻게 구성합니까?
+      url: "/sm-hardware/how-do-i-configure-my-dhcp-server.html"
+    - title: 컨트롤러 네트워크 구성을 변경해야 하는 이유는 무엇입니까?
+      url: "/sm-hardware/why-do-i-need-to-change-the-controller-network-configuration.html"
+    - title: 네트워크 구성은 어디에서 얻을 수 있습니까?
+      url: "/sm-hardware/where-do-i-get-the-network-configuration.html"
+    - title: ICMP ping 응답이란?
+      url: "/sm-hardware/what-are-icmp-ping-responses.html"
+    - title: DHCP 서버에서 포트 구성 또는 iSNS 서버를 언제 새로 고쳐야 합니까?
+      url: "/sm-hardware/when-should-i-refresh-the-port-configuration-or-the-isns-server-from-the-dhcp-server.html"
+    - title: 관리 포트를 구성한 후에는 어떻게 해야 합니까?
+      url: "/sm-hardware/what-should-i-do-after-configuring-the-management-ports.html"
+- title: 드라이브
+  entries:
+  - title: 개념
+    entries:
+    - title: 드라이브 용어
+      url: "/sm-hardware/drive-terminology.html"
+    - title: 드라이브 상태
+      url: "/sm-hardware/drive-states.html"
+    - title: SSD(Solid State Disk)
+      url: "/sm-hardware/solid-state-disks-ssds.html"
+    - title: 핫 스페어 드라이브
+      url: "/sm-hardware/hot-spare-drives.html"
+  - title: 방법
+    entries:
+    - title: 드라이브 보기를 제한합니다
+      url: "/sm-hardware/limit-the-drive-view.html"
+    - title: 드라이브 로케이터 표시등을 켭니다
+      url: "/sm-hardware/turn-on-drive-locator-light.html"
+    - title: 드라이브 상태 및 설정을 봅니다
+      url: "/sm-hardware/view-drive-status-and-settings.html"
+    - title: 드라이브를 논리적으로 교체합니다
+      url: "/sm-hardware/replace-drive-logically-hardware.html"
+    - title: 드라이브를 수동으로 재구성합니다
+      url: "/sm-hardware/reconstruct-drive-manually.html"
+    - title: 드라이브를 초기화(포맷)합니다
+      url: "/sm-hardware/initialize-format-drive.html"
+    - title: 드라이브 오류
+      url: "/sm-hardware/fail-drive.html"
+    - title: 핫 스페어를 할당합니다
+      url: "/sm-hardware/assign-hot-spares-hardware.html"
+    - title: 핫 스페어 할당을 취소합니다
+      url: "/sm-hardware/unassign-hot-spares.html"
+    - title: 보안 지원 드라이브를 지웁니다
+      url: "/sm-hardware/erase-drive.html"
+    - title: 잠긴 NVMe 드라이브의 잠금을 해제하거나 재설정합니다
+      url: "/sm-hardware/unlock-or-reset-a-locked-nvme-drive.html"
+  - title: FAQ 를 참조하십시오
+    entries:
+    - title: 보존 용량이란?
+      url: "/sm-hardware/what-is-preservation-capacity.html"
+    - title: 드라이브를 논리적으로 교체하는 이유는 무엇입니까?
+      url: "/sm-hardware/why-would-i-logically-replace-a-drive.html"
+    - title: 재구성 중인 드라이브의 상태는 어디에서 확인할 수 있습니까?
+      url: "/sm-hardware/where-can-i-view-the-status-of-a-drive-undergoing-reconstruction.html"

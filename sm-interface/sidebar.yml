@@ -1,0 +1,60 @@
+---
+section: sm-interface
+title: 기본 인터페이스
+entries:
+- title: 홈 페이지
+  url: "/sm-interface/home-page.html"
+- title: 설정 마법사
+  entries:
+  - title: 개념
+    entries:
+    - title: 설정 마법사 개요
+      url: "/sm-interface/setup-wizard-overview.html"
+    - title: 설정 마법사 용어
+      url: "/sm-interface/setup-wizard-terminology.html"
+  - title: FAQ 를 참조하십시오
+    entries:
+    - title: 내 하드웨어 구성 요소가 모두 표시되지 않으면 어떻게 합니까?
+      url: "/sm-interface/what-if-i-dont-see-all-of-my-hardware-components.html"
+    - title: 모든 호스트가 표시되지 않으면 어떻게 합니까?
+      url: "/sm-interface/what-if-i-dont-see-all-of-my-hosts.html"
+    - title: 애플리케이션을 식별하면 스토리지 어레이를 관리하는 데 어떤 도움이 됩니까?
+      url: "/sm-interface/how-does-identifying-applications-help-me-manage-my-storage-array.html"
+    - title: 워크로드란?
+      url: "/sm-interface/what-is-a-workload.html"
+    - title: AutoSupport에 대한 전달 방법을 구성하려면 어떻게 합니까?
+      url: "/sm-interface/how-do-i-configure-the-delivery-method-for-autosupport-new.html"
+    - title: 권장 풀 구성을 수락해야 하는지 어떻게 알 수 있습니까?
+      url: "/sm-interface/how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.html"
+    - title: System Manager에서 호스트를 검색하지 못했습니다. 어떻게 해야 합니까?
+      url: "/sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html"
+- title: 스토리지 어레이 관리
+  entries:
+  - title: 개념
+    entries:
+    - title: 스토리지 시스템 개요
+      url: "/sm-interface/storage-array-overview.html"
+    - title: 관리자 암호 보호
+      url: "/sm-interface/administrator-password-protection.html"
+    - title: 문제 알림
+      url: "/sm-interface/problem-notification.html"
+    - title: 작업이 진행 중입니다
+      url: "/sm-interface/operations-in-progress.html"
+  - title: 방법
+    entries:
+    - title: 용량 값의 기본 단위를 설정합니다
+      url: "/sm-interface/set-default-units-for-capacity-values.html"
+    - title: 성능 그래프의 기본 기간을 설정합니다
+      url: "/sm-interface/set-default-time-frame-for-performance-graphs.html"
+    - title: Recovery Guru를 사용하여 문제를 해결합니다
+      url: "/sm-interface/recover-from-problems-using-recovery-guru.html"
+    - title: 진행 중인 작업을 보고 수행합니다
+      url: "/sm-interface/view-and-act-on-operations-in-progress.html"
+  - title: FAQ 를 참조하십시오
+    entries:
+    - title: 디스플레이 기본 설정에 대한 자세한 정보는 어디에서 찾을 수 있습니까?
+      url: "/sm-interface/where-can-i-find-more-information-about-display-preferences.html"
+    - title: 지원되는 브라우저는 무엇입니까?
+      url: "/sm-interface/what-are-the-supported-browsers.html"
+    - title: 키보드 바로 가기는 무엇입니까?
+      url: "/sm-interface/what-are-the-keyboard-shortcuts.html"

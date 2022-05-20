@@ -1,0 +1,13 @@
+---
+permalink: sm-mirroring/generic-how-tos.html 
+sidebar: sidebar 
+keywords: how tos 
+summary: 방법 
+---
+= 방법
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+"저는...*

@@ -1,0 +1,88 @@
+---
+permalink: sm-support/iscsi-target-statistics-and-local-initiator-statistics.html 
+sidebar: sidebar 
+keywords: target, statistics, local, initiator, statistics, select, target 
+summary: iSCSI 타겟 통계 및 로컬 이니시에이터 통계 
+---
+= iSCSI 타겟 통계 및 로컬 이니시에이터 통계
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+Target (protocol) statistics 또는 Local initiator (protocol) statistics를 선택하면 다음과 같은 통계가 표시됩니다. 각 통계를 원시 통계 또는 기준 통계로 볼 수 있습니다.
+
+[cols="2*"]
+|===
+| 통계 | 정의 
+
+
+ a| 
+서비스 수준
+ a| 
+성공적인 iSCSI 로그인 수
+
+
+
+ a| 
+UL
+ a| 
+실패한 iSCSI 로그인 수입니다
+
+
+
+ a| 
+토
+ a| 
+성공한 iSCSI 인증 수(인증이 활성화된 경우)
+
+
+
+ a| 
+UA
+ a| 
+실패한 iSCSI 인증 수(인증이 활성화된 경우)
+
+
+
+ a| 
+PDU입니다
+ a| 
+iSCSI PDU 처리 수를 수정합니다
+
+
+
+ a| 
+HDe
+ a| 
+헤더 다이제스트 오류 수가 포함된 iSCSI PDU
+
+
+
+ a| 
+DDE
+ a| 
+데이터 다이제스트 오류 수가 포함된 iSCSI PDU
+
+
+
+ a| 
+PE
+ a| 
+PDU와 iSCSI 프로토콜 오류 수
+
+
+
+ a| 
+우스트입니다
+ a| 
+예기치 않은 iSCSI 세션 종료 수입니다
+
+
+
+ a| 
+uct
+ a| 
+예기치 않은 iSCSI 연결 종료 수입니다
+
+|===

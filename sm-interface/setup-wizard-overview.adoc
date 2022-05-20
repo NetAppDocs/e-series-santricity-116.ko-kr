@@ -1,0 +1,27 @@
+---
+permalink: sm-interface/setup-wizard-overview.html 
+sidebar: sidebar 
+keywords: setup wizard, configure, storage, array, hardware, host, application workload, alert, autosupport 
+summary: 설치 마법사를 사용하여 하드웨어, 호스트, 애플리케이션, 워크로드 등 스토리지 시스템을 구성합니다. 풀, 알림 및 AutoSupport 
+---
+= 설정 마법사 개요
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+설치 마법사를 사용하여 하드웨어, 호스트, 애플리케이션, 워크로드 등 스토리지 시스템을 구성합니다. 풀, 알림 및 AutoSupport
+
+System Manager를 처음 열면 설정 마법사가 시작됩니다.
+
+설치 마법사는 스토리지 배열 이름 지정, 호스트 구성, 애플리케이션 선택 및 스토리지 풀 생성 등의 기본 구성 작업을 수행하라는 메시지를 표시합니다.
+
+마법사를 취소하면 수동으로 다시 시작할 수 없습니다.
+
+System Manager를 열거나 브라우저를 새로 고치면 마법사가 자동으로 다시 시작되고, 다음 중 _ 개 이상의 조건이 충족됩니다.
+
+* 풀 및 볼륨 그룹이 감지되지 않습니다.
+* 감지된 워크로드가 없습니다.
+* 알림이 구성되지 않았습니다.
+

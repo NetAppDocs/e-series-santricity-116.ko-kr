@@ -1,0 +1,130 @@
+---
+section: sm-mirroring
+title: 미러링
+entries:
+- title: 비동기식 미러링
+  entries:
+  - title: 개념
+    entries:
+    - title: 비동기식 미러링의 작동 방식
+      url: "/sm-mirroring/how-asynchronous-mirroring-works.html"
+    - title: 비동기식 미러링 용어
+      url: "/sm-mirroring/asynchronous-terminology.html"
+    - title: 볼륨을 비동기적으로 미러링하는 워크플로
+      url: "/sm-mirroring/workflow-for-mirroring-a-volume-asynchronously.html"
+    - title: 비동기 미러링 사용에 대한 요구 사항
+      url: "/sm-mirroring/requirements-for-using-asynchronous-mirroring.html"
+    - title: 비동기식 미러 상태입니다
+      url: "/sm-mirroring/asynchronous-mirror-status.html"
+    - title: 볼륨 소유권
+      url: "/sm-mirroring/volume-ownership-async.html"
+    - title: 미러 정합성 보장 그룹의 역할 변경
+      url: "/sm-mirroring/role-change-of-a-mirror-consistency-group.html"
+  - title: 방법
+    entries:
+    - title: 미러 정합성 보장 그룹 관리
+      entries:
+      - title: 미러 정합성 보장 그룹에 대한 통신을 테스트합니다
+        url: "/sm-mirroring/test-communication-for-mirror-consistency-groups.html"
+      - title: 미러 정합성 보장 그룹에 대한 동기화를 일시 중지하거나 다시 시작합니다
+        url: "/sm-mirroring/suspend-or-resume-mirror-consistency-group.html"
+      - title: 미러 정합성 보장 그룹의 동기화 설정을 변경합니다
+        url: "/sm-mirroring/change-synchronization-settings-for-a-mirror-consistency-group.html"
+      - title: 미러 정합성 보장 그룹을 수동으로 다시 동기화하십시오
+        url: "/sm-mirroring/re-synchronize-mirror-consistency-group-manually.html"
+      - title: 미러 정합성 보장 그룹 간에 동기화되지 않은 데이터 양을 봅니다
+        url: "/sm-mirroring/view-unsynchronized-data-amount-between-mirror-consistency-groups.html"
+      - title: 원격 IP 주소를 업데이트합니다
+        url: "/sm-mirroring/update-remote-ip-address.html"
+      - title: 미러 정합성 보장 그룹 역할을 운영 또는 2차 역할로 변경합니다
+        url: "/sm-mirroring/change-mirror-consistency-group-role-to-primary-or-secondary.html"
+      - title: 미러 정합성 보장 그룹을 삭제합니다
+        url: "/sm-mirroring/delete-mirror-consistency-group.html"
+    - title: 비동기 미러링 쌍을 관리합니다
+      entries:
+      - title: 비동기식 미러 관계를 제거합니다
+        url: "/sm-mirroring/remove-mirrored-pair.html"
+      - title: 예약된 용량을 늘립니다
+        url: "/sm-mirroring/increase-reserved-capacity.html"
+      - title: 미러링된 페어 볼륨에 대한 예약된 용량 설정을 변경합니다
+        url: "/sm-mirroring/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html"
+      - title: 기존 시스템에서 생성된 운영 볼륨에 대해 완전한 미러링 쌍을 제공합니다
+        url: "/sm-mirroring/complete-mirrored-pair-for-primary-volumes-created-on-legacy-system.html"
+    - title: 비동기식 미러링을 비활성화합니다
+      url: "/sm-mirroring/deactivate-asynchronous-mirroring.html"
+  - title: FAQ 를 참조하십시오
+    entries:
+    - title: 비동기식 미러링은 동기식 미러링과 어떻게 다릅니까?
+      url: "/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-async.html"
+    - title: 선택한 미러링 기능에 액세스할 수 없는 이유는 무엇입니까?
+      url: "/sm-mirroring/why-cant-i-access-my-chosen-mirroring-feature.html"
+    - title: 미러 정합성 보장 그룹을 생성하기 전에 알아야 할 내용은 무엇입니까?
+      url: "/sm-mirroring/what-do-i-need-to-know-before-creating-a-mirror-consistency-group.html"
+    - title: 비동기 미러링 - 미러링된 쌍을 만들기 전에 알아야 할 것은 무엇입니까?
+      url: "/sm-mirroring/asynchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html"
+    - title: 미러링된 쌍 볼륨에서 예약된 용량을 증가시키기 전에 무엇을 알아야 합니까?
+      url: "/sm-mirroring/what-do-i-need-to-know-before-increasing-my-reserved-capacity-on-a-mirrored-pair-volume.html"
+    - title: 요청한 용량으로 예약된 용량을 늘릴 수 없는 이유는 무엇입니까?
+      url: "/sm-mirroring/why-cant-i-increase-reserved-capacity-with-my-requested-amount.html"
+    - title: 이 비율을 변경하는 이유는 무엇입니까?
+      url: "/sm-mirroring/why-would-i-change-this-percentage.html"
+    - title: 예약된 용량이 두 개 이상 표시되는 이유는 무엇입니까?
+      url: "/sm-mirroring/why-do-i-see-more-than-one-reserved-capacity-candidate.html"
+    - title: 테이블에 사용할 수 없는 값이 표시되는 이유는 무엇입니까?
+      url: "/sm-mirroring/why-do-i-see-not-available-values-displayed-in-the-table.html"
+    - title: 내 풀 및 볼륨 그룹이 모두 표시되지 않는 이유는 무엇입니까?
+      url: "/sm-mirroring/why-dont-i-see-all-of-my-pools-and-volume-groups.html"
+    - title: 비동기식 미러링 - 모든 볼륨이 표시되지 않는 이유는 무엇입니까?
+      url: "/sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-my-volumes.html"
+    - title: 비동기 미러링 - 원격 스토리지 배열의 모든 볼륨을 볼 수 없는 이유는 무엇입니까?
+      url: "/sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html"
+    - title: 원격 스토리지 어레이의 IP 주소를 업데이트하는 이유는 무엇입니까?
+      url: "/sm-mirroring/why-would-i-update-my-remote-storage-arrays-ip-address.html"
+- title: 동기 미러링
+  entries:
+  - title: 개념
+    entries:
+    - title: 동기 미러링의 작동 방식
+      url: "/sm-mirroring/how-synchronous-mirroring-works.html"
+    - title: 동기 미러링 용어
+      url: "/sm-mirroring/synchronous-mirroring-terminology.html"
+    - title: 볼륨을 동기식으로 미러링하기 위한 워크플로우
+      url: "/sm-mirroring/workflow-for-mirroring-a-volume-synchronously.html"
+    - title: 동기 미러링 사용에 대한 요구 사항
+      url: "/sm-mirroring/requirements-for-using-synchronous-mirroring.html"
+    - title: 동기 미러링 상태
+      url: "/sm-mirroring/synchronous-mirroring-status.html"
+    - title: 볼륨 소유권
+      url: "/sm-mirroring/volume-ownership-sync.html"
+    - title: 미러링된 쌍의 볼륨 간 역할 변경
+      url: "/sm-mirroring/role-change-of-volumes-in-a-mirrored-pair.html"
+  - title: 방법
+    entries:
+    - title: 동기식 미러링 쌍 관리
+      entries:
+      - title: 동기식 미러링에 대한 통신을 테스트합니다
+        url: "/sm-mirroring/test-communication-for-synchronous-mirroring.html"
+      - title: 미러링된 쌍의 동기화를 일시 중지하고 다시 시작합니다
+        url: "/sm-mirroring/suspend-and-resume-synchronization-for-a-mirrored-pair.html"
+      - title: 미러링된 쌍의 볼륨 간에 역할을 변경합니다
+        url: "/sm-mirroring/change-role-between-volumes-in-a-mirrored-pair.html"
+      - title: 미러링된 쌍의 동기화 설정을 변경합니다
+        url: "/sm-mirroring/change-synchronization-settings-for-a-mirrored-pair.html"
+      - title: 동기식 미러 관계를 제거합니다
+        url: "/sm-mirroring/remove-synchronous-mirror-relationship.html"
+    - title: 동기 미러링을 비활성화합니다
+      url: "/sm-mirroring/deactivate-synchronous-mirroring.html"
+  - title: FAQ 를 참조하십시오
+    entries:
+    - title: 동기식 미러링과 비동기식 미러링의 차이점은 무엇입니까?
+      url: "/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-sync.html"
+    - title: 동기 미러링 - 내 볼륨을 모두 볼 수 없는 이유는 무엇입니까?
+      url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-my-volumes.html"
+    - title: 동기 미러링 - 원격 스토리지 어레이의 모든 볼륨이 표시되지 않는 이유는 무엇입니까?
+      url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html"
+    - title: 동기식 미러링 - 미러링된 쌍을 만들기 전에 알아야 할 것은 무엇입니까?
+      url: "/sm-mirroring/synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html"
+    - title: 동기화 우선 순위가 동기화 속도에 어떤 영향을 미칩니까?
+      url: "/sm-mirroring/what-impact-does-synchronization-priority-have-on-synchronization-rates.html"
+    - title: 수동 동기화 정책을 사용하는 것이 권장되는 이유는 무엇입니까?
+      url: "/sm-mirroring/why-is-it-recommended-to-use-a-manual-synchronization-policy.html"

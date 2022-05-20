@@ -1,0 +1,61 @@
+---
+permalink: sm-support/dcbx-operational-state-statistics.html 
+sidebar: sidebar 
+keywords: operational, state, statistics 
+summary: DCBX 작업 상태 통계 
+---
+= DCBX 작업 상태 통계
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+DCBX(Data Center Bridging Exchange) 작업 상태 통계 를 선택하면 이러한 통계가 나타납니다.
+
+[cols="2*"]
+|===
+| 통계 | 정의 
+
+
+ a| 
+iSCSI 호스트 포트
+ a| 
+컨트롤러 번호, 포트 번호 형식으로 감지된 호스트 포트의 위치를 나타냅니다.
+
+
+
+ a| 
+우선 순위 그룹
+ a| 
+PG(우선 순위 그룹) 응용 프로그램의 작동 상태를 나타냅니다. 상태는 Enabled 또는 Disabled입니다.
+
+
+
+ a| 
+우선 순위 기반 흐름 제어
+ a| 
+우선 순위 기반 흐름 제어(PFC) 기능의 작동 상태를 나타냅니다. 상태는 Enabled 또는 Disabled입니다.
+
+
+
+ a| 
+iSCSI 기능
+ a| 
+iSCSI(Internet Small Computer System Interface) 응용 프로그램의 작동 상태를 나타냅니다. 상태는 Enabled 또는 Disabled입니다.
+
+
+
+ a| 
+FCoE 대역폭
+ a| 
+FCoE(Fibre Channel over Ethernet) 대역폭의 상태를 나타냅니다. 상태는 True 또는 False입니다.
+
+
+
+ a| 
+FCoE/FIP 맵 불일치 없음
+ a| 
+FCoE와 FIP(FCoE Initialization Protocol) 간의 맵 불일치가 있는지 여부를 나타냅니다. 값은 True 또는 False입니다.
+
+|===
+상태 캡처 파일에서 추가 DCBX 작업 상태 통계를 찾을 수 있습니다.

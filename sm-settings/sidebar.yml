@@ -1,0 +1,334 @@
+---
+section: sm-settings
+title: 설정
+entries:
+- title: 경고
+  entries:
+  - title: 개념
+    entries:
+    - title: 알림의 작동 방식
+      url: "/sm-settings/how-alerts-work.html"
+    - title: 경고 용어
+      url: "/sm-settings/alerts-terminology.html"
+  - title: 방법
+    entries:
+    - title: 이메일 알림을 관리합니다
+      entries:
+      - title: 메일 서버 및 받는 사람이 알림을 받도록 구성합니다
+        url: "/sm-settings/configure-mail-server-and-recipients-for-alerts.html"
+      - title: 알림에 대한 이메일 주소를 편집합니다
+        url: "/sm-settings/edit-alert-email-addresses.html"
+      - title: 알림에 대한 이메일 주소를 추가합니다
+        url: "/sm-settings/add-alert-email-addresses.html"
+      - title: 알림에 대한 메일 서버 또는 이메일 주소를 삭제합니다
+        url: "/sm-settings/delete-alert-email-addresses.html"
+      - title: 알림에 대한 메일 서버를 편집합니다
+        url: "/sm-settings/edit-mail-server-for-alerts.html"
+    - title: SNMP 경고를 관리합니다
+      entries:
+      - title: SNMP 경고에 대한 커뮤니티 및 대상을 구성합니다
+        url: "/sm-settings/configure-snmp-alerts.html"
+      - title: SNMP 트랩의 커뮤니티 이름을 편집합니다
+        url: "/sm-settings/edit-community-names-for-snmp-traps.html"
+      - title: SNMP 트랩에 대한 커뮤니티 이름을 추가합니다
+        url: "/sm-settings/add-community-names-for-snmp-traps.html"
+      - title: SNMP 트랩의 커뮤니티 이름을 제거합니다
+        url: "/sm-settings/remove-community-name-for-snmp-traps.html"
+      - title: SNMP MIB 변수를 구성합니다
+        url: "/sm-settings/configure-snmp-mib-variables.html"
+      - title: SNMP 경고에 대한 트랩 대상을 추가합니다
+        url: "/sm-settings/add-trap-destinations-for-snmp-alerts.html"
+      - title: 트랩 대상을 삭제합니다
+        url: "/sm-settings/delete-trap-destinations.html"
+    - title: syslog 알림을 관리합니다
+      entries:
+      - title: 경고에 대한 syslog 서버를 구성합니다
+        url: "/sm-settings/configure-syslog-server-for-alerts.html"
+      - title: 경고를 위해 syslog 서버를 편집합니다
+        url: "/sm-settings/edit-syslog-servers-for-alerts.html"
+      - title: 경고에 대한 syslog 서버를 추가합니다
+        url: "/sm-settings/add-syslog-servers-for-alerts.html"
+      - title: 경고를 위해 syslog 서버를 삭제합니다
+        url: "/sm-settings/delete-syslog-servers-for-alerts.html"
+  - title: FAQ 를 참조하십시오
+    entries:
+    - title: 경고가 비활성화되면 어떻게 합니까?
+      url: "/sm-settings/what-if-alerts-are-disabled.html"
+    - title: SNMP 또는 syslog 알림을 구성하려면 어떻게 합니까?
+      url: "/sm-settings/how-do-i-configure-snmp-or-syslog-alerts.html"
+    - title: 타임스탬프가 스토리지와 알림 간에 일치하지 않는 이유는 무엇입니까?
+      url: "/sm-settings/why-are-timestamps-inconsistent-between-the-array-and-alerts.html"
+- title: '시스템: 스토리지 배열 설정입니다'
+  entries:
+  - title: 개념
+    entries:
+    - title: 캐시 설정 및 성능
+      url: "/sm-settings/cache-settings-and-performance.html"
+    - title: 자동 로드 밸런싱 개요
+      url: "/sm-settings/automatic-load-balancing-overview.html"
+    - title: 기본 호스트 운영 체제 유형입니다
+      url: "/sm-settings/default-host-operating-system-type.html"
+  - title: 방법
+    entries:
+    - title: 스토리지 배열 이름을 편집합니다
+      url: "/sm-settings/edit-storage-array-name.html"
+    - title: 스토리지 배열 로케이터 표시등을 켭니다
+      url: "/sm-settings/turn-on-storage-array-locator-lights.html"
+    - title: 스토리지 배열 클록을 동기화합니다
+      url: "/sm-settings/synchronize-storage-array-clocks.html"
+    - title: 스토리지 배열 구성을 저장합니다
+      url: "/sm-settings/save-storage-array-configuration.html"
+    - title: 스토리지 배열 구성을 지웁니다
+      url: "/sm-settings/clear-storage-array-configuration.html"
+    - title: 로그인 배너를 구성합니다
+      url: "/sm-settings/configure-login-banner.html"
+    - title: 세션 시간 제한을 관리합니다
+      url: "/sm-settings/manage-session-timeouts-sam.html"
+    - title: 스토리지 배열에 대한 캐시 설정을 변경합니다
+      url: "/sm-settings/change-cache-settings-for-storage-array.html"
+    - title: 호스트 연결 보고를 설정합니다
+      url: "/sm-settings/set-host-connectivity-reporting.html"
+    - title: 자동 로드 밸런싱을 설정합니다
+      url: "/sm-settings/set-automatic-load-balancing.html"
+    - title: 기본 호스트 유형을 변경합니다
+      url: "/sm-settings/change-default-host-type.html"
+    - title: 레거시 관리 인터페이스를 활성화 또는 비활성화합니다
+      url: "/sm-settings/enable-or-disable-legacy-management-interface.html"
+  - title: FAQ 를 참조하십시오
+    entries:
+    - title: 컨트롤러 캐시란 무엇입니까?
+      url: "/sm-settings/what-is-controller-cache.html"
+    - title: 캐시 플러싱이란 무엇입니까?
+      url: "/sm-settings/what-is-cache-flushing.html"
+    - title: 캐시 블록 크기란 무엇입니까?
+      url: "/sm-settings/what-is-cache-block-size.html"
+    - title: 스토리지 배열 클록은 언제 동기화해야 합니까?
+      url: "/sm-settings/when-should-i-synchronize-storage-array-clocks.html"
+    - title: 호스트 연결 보고란 무엇입니까?
+      url: "/sm-settings/what-is-host-connectivity-reporting.html"
+- title: '시스템: iSCSI 설정'
+  entries:
+  - title: 개념
+    entries:
+    - title: iSCSI 용어
+      url: "/sm-settings/iscsi-terminology.html"
+  - title: 방법
+    entries:
+    - title: iSCSI 포트를 구성합니다
+      url: "/sm-settings/configure-iscsi-ports-system.html"
+    - title: iSCSI 인증을 구성합니다
+      url: "/sm-settings/configure-iscsi-authentication.html"
+    - title: iSCSI 검색 설정을 활성화합니다
+      url: "/sm-settings/enable-iscsi-discovery-settings.html"
+    - title: iSCSI 통계 패키지를 봅니다
+      url: "/sm-settings/view-iscsi-statistics-packages-system.html"
+    - title: iSCSI 세션을 봅니다
+      url: "/sm-settings/view-iscsi-sessions-system.html"
+    - title: iSCSI 세션을 종료합니다
+      url: "/sm-settings/end-iscsi-session-system.html"
+    - title: InfiniBand 포트를 통해 iSER 구성
+      url: "/sm-settings/configure-iser-over-infiniband-ports-system.html"
+    - title: InfiniBand 통계를 통해 iSER 보기
+      url: "/sm-settings/view-iser-over-infiniband-statistics-system.html"
+  - title: FAQ 를 참조하십시오
+    entries:
+    - title: 등록을 위해 iSNS 서버를 사용하면 어떻게 됩니까?
+      url: "/sm-settings/what-happens-when-i-use-an-isns-server.html"
+    - title: iSCSI에 대해 자동으로 지원되는 등록 방법은 무엇입니까?
+      url: "/sm-settings/which-registration-methods-are-automatically-supported-for-iscsi.html"
+    - title: InfiniBand 통계를 통해 iSER을 어떻게 해석합니까?
+      url: "/sm-settings/how-do-i-interpret-iser-over-infiniband-statistics.html"
+    - title: InfiniBand를 통해 iSER을 구성하거나 진단하려면 어떻게 해야 합니까?
+      url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-iser-over-infiniband.html"
+- title: '시스템: NVMe 설정'
+  entries:
+  - title: 개념
+    entries:
+    - title: NVMe 개요
+      url: "/sm-settings/nvme-overview.html"
+    - title: NVMe 관련 용어
+      url: "/sm-settings/nvme-terminology.html"
+  - title: 방법
+    entries:
+    - title: InfiniBand 포트를 통해 NVMe를 구성합니다
+      url: "/sm-settings/configure-nvme-over-infiniband-ports-system.html"
+    - title: NVMe over RoCE 포트를 구성합니다
+      url: "/sm-settings/configure-nvme-over-roce-ports-system.html"
+    - title: NVMe over Fabrics 통계 보기
+      url: "/sm-settings/view-nvme-over-fabrics-statistics-system.html"
+  - title: FAQ 를 참조하십시오
+    entries:
+    - title: NVMe over Fabrics 통계를 어떻게 해석합니까?
+      url: "/sm-settings/how-do-i-interpret-nvme-over-fabrics-statistics.html"
+    - title: InfiniBand를 통해 NVMe를 구성하거나 진단하려면 어떻게 해야 합니까?
+      url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-infiniband.html"
+    - title: NVMe over RoCE를 구성 또는 진단하려면 어떻게 해야 합니까?
+      url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-roce.html"
+    - title: 하나의 물리적 포트에 대해 두 개의 IP 주소가 있는 이유는 무엇입니까?
+      url: "/sm-settings/why-are-there-two-ip-addresses-for-one-physical-port.html"
+    - title: 물리적 포트 하나에 대해 두 개의 매개 변수 세트가 있는 이유는 무엇입니까?
+      url: "/sm-settings/why-are-there-two-sets-of-parameters-for-one-physical-port.html"
+- title: '시스템: 추가 기능'
+  entries:
+  - title: 개념
+    entries:
+    - title: 애드온 기능의 작동 방식
+      url: "/sm-settings/how-add-on-features-work.html"
+    - title: 애드온 기능 용어
+      url: "/sm-settings/add-on-feature-terminology.html"
+  - title: 방법
+    entries:
+    - title: 기능 키 파일을 가져옵니다
+      url: "/sm-settings/obtain-a-feature-key-file.html"
+    - title: 프리미엄 기능 지원
+      url: "/sm-settings/enable-premium-feature.html"
+    - title: 기능 팩을 활성화합니다
+      url: "/sm-settings/enable-feature-pack.html"
+    - title: CLI(Command Line Interface) 다운로드
+      url: "/sm-settings/download-cli.html"
+- title: '시스템: 보안 키 관리'
+  entries:
+  - title: 개념
+    entries:
+    - title: 드라이브 보안 기능의 작동 방식
+      url: "/sm-settings/how-the-drive-security-feature-works.html"
+    - title: 보안 키 관리의 작동 방식
+      url: "/sm-settings/how-security-key-management-works.html"
+    - title: 드라이브 보안 용어
+      url: "/sm-settings/drive-security-terminology.html"
+  - title: 방법
+    entries:
+    - title: 내부 보안 키를 생성합니다
+      url: "/sm-settings/create-internal-security-key.html"
+    - title: 외부 보안 키를 만듭니다
+      url: "/sm-settings/create-external-security-key.html"
+    - title: 보안 키를 변경합니다
+      url: "/sm-settings/change-security-key.html"
+    - title: 외부에서 내부 키 관리로 전환합니다
+      url: "/sm-settings/switch-from-external-to-internal-key-management.html"
+    - title: 키 관리 서버 설정을 편집합니다
+      url: "/sm-settings/edit-key-management-server-settings.html"
+    - title: 보안 키를 백업합니다
+      url: "/sm-settings/back-up-security-key.html"
+    - title: 보안 키를 확인합니다
+      url: "/sm-settings/validate-security-key.html"
+    - title: 보안 키를 사용하여 드라이브 잠금을 해제합니다
+      url: "/sm-settings/unlock-drives-using-an-internal-security-key.html"
+  - title: FAQ 를 참조하십시오
+    entries:
+    - title: 보안 키를 생성하기 전에 알아야 할 사항은 무엇입니까?
+      url: "/sm-settings/what-do-i-need-to-know-before-creating-a-security-key.html"
+    - title: 암호문을 정의해야 하는 이유는 무엇입니까?
+      url: "/sm-settings/why-do-i-need-to-define-a-pass-phrase.html"
+    - title: 보안 키 정보를 기록하는 것이 중요한 이유는 무엇입니까?
+      url: "/sm-settings/why-is-it-important-to-record-security-key-information.html"
+    - title: 보안 키를 백업하기 전에 알아야 할 내용은 무엇입니까?
+      url: "/sm-settings/what-do-i-need-to-know-before-backing-up-a-security-key.html"
+    - title: 보안 드라이브를 잠금 해제하기 전에 알아야 할 사항은 무엇입니까?
+      url: "/sm-settings/what-do-i-need-to-know-before-unlocking-secure-drives.html"
+    - title: 읽기/쓰기 접근성이란 무엇입니까?
+      url: "/sm-settings/what-is-read-write-accessibility.html"
+    - title: 보안 키 유효성 검사에 대해 알아야 할 내용은 무엇입니까?
+      url: "/sm-settings/what-do-i-need-to-know-about-validating-the-security-key.html"
+    - title: 내부 보안 키와 외부 보안 키 관리의 차이점은 무엇입니까?
+      url: "/sm-settings/what-is-the-difference-between-internal-security-key-and-external-security-key-management.html"
+- title: 액세스 관리
+  entries:
+  - title: 개념
+    entries:
+    - title: 액세스 관리 작동 방식
+      url: "/sm-settings/how-access-management-works.html"
+    - title: Access Management(액세스 관리) 용어
+      url: "/sm-settings/access-management-terminology.html"
+    - title: 매핑된 역할에 대한 권한
+      url: "/sm-settings/permissions-for-mapped-roles.html"
+    - title: 로컬 사용자 역할을 사용하여 액세스 관리
+      url: "/sm-settings/access-management-with-local-user-roles.html"
+    - title: 디렉토리 서비스를 통한 액세스 관리
+      url: "/sm-settings/access-management-with-directory-services.html"
+    - title: SAML을 통한 액세스 관리
+      url: "/sm-settings/access-management-with-saml.html"
+  - title: 방법
+    entries:
+    - title: 로컬 사용자 역할을 봅니다
+      url: "/sm-settings/view-local-user-roles.html"
+    - title: 암호를 변경합니다
+      url: "/sm-settings/change-passwords.html"
+    - title: 로컬 사용자 암호 설정을 변경합니다
+      url: "/sm-settings/change-local-user-passwords-settings.html"
+    - title: 디렉토리 서버를 추가합니다
+      url: "/sm-settings/add-directory-server.html"
+    - title: 디렉토리 서버 설정 및 역할 매핑을 편집합니다
+      url: "/sm-settings/edit-directory-server-settings.html"
+    - title: 디렉토리 서버를 제거합니다
+      url: "/sm-settings/remove-directory-server.html"
+    - title: SAML을 구성합니다
+      url: "/sm-settings/configure-saml.html"
+    - title: SAML 역할 매핑을 변경합니다
+      url: "/sm-settings/change-saml-role-mappings.html"
+    - title: SAML 서비스 공급자 파일을 내보냅니다
+      url: "/sm-settings/export-saml-service-provider-files.html"
+    - title: 감사 로그 활동을 봅니다
+      url: "/sm-settings/view-audit-log-activity.html"
+    - title: 감사 로그 정책을 정의합니다
+      url: "/sm-settings/define-log-policies.html"
+    - title: 감사 로그에서 이벤트를 삭제합니다
+      url: "/sm-settings/delete-events-from-the-audit-log.html"
+    - title: 감사 로그를 위해 syslog 서버를 구성합니다
+      url: "/sm-settings/configure-syslog-server-for-audit-logs.html"
+    - title: 감사 로그 레코드에 대한 syslog 서버 설정을 편집합니다
+      url: "/sm-settings/edit-syslog-server-settings-for-audit-log-records.html"
+  - title: FAQ 를 참조하십시오
+    entries:
+    - title: 로그인할 수 없는 이유는 무엇입니까?
+      url: "/sm-settings/why-cant-i-log-in.html"
+    - title: 디렉토리 서버를 추가하기 전에 알아야 할 사항은 무엇입니까?
+      url: "/sm-settings/what-do-i-need-to-know-before-adding-a-directory-server.html"
+    - title: 스토리지 어레이 역할에 매핑하는 방법에 대해 알아야 할 내용은 무엇입니까?
+      url: "/sm-settings/what-do-i-need-to-know-about-mapping-storage-array-roles.html"
+    - title: 이 변경의 영향을 받을 수 있는 외부 관리 도구는 무엇입니까?
+      url: "/sm-settings/which-external-management-tools-may-be-affected-by-this-change.html"
+    - title: SAML을 구성 및 활성화하기 전에 알아야 할 내용은 무엇입니까?
+      url: "/sm-settings/what-do-i-need-to-know-before-configuring-and-enabling-saml.html"
+    - title: 감사 로그에 기록되는 이벤트 유형은 무엇입니까?
+      url: "/sm-settings/what-types-of-events-are-recorded-in-the-audit-log.html"
+    - title: syslog 서버를 구성하기 전에 알아야 할 내용은 무엇입니까?
+      url: "/sm-settings/what-do-i-need-to-know-before-configuring-a-syslog-server.html"
+    - title: syslog 서버가 더 이상 감사 로그를 수신하지 않습니다. 어떻게 해야 합니까?
+      url: "/sm-settings/the-syslog-server-is-no-longer-receiving-audit-logs-what-do-i-do.html"
+- title: 인증서
+  entries:
+  - title: 개념
+    entries:
+    - title: 인증서 작동 방식
+      url: "/sm-settings/how-certificates-work-sam.html"
+    - title: 인증서 용어
+      url: "/sm-settings/certificate-terminology.html"
+  - title: 방법
+    entries:
+    - title: 컨트롤러에 CA 서명 인증서를 사용합니다
+      url: "/sm-settings/use-ca-signed-certificates-for-controllers.html"
+    - title: 관리 인증서를 재설정합니다
+      url: "/sm-settings/reset-management-certificates.html"
+    - title: 가져온 인증서 정보를 봅니다
+      url: "/sm-settings/view-imported-certificates.html"
+    - title: 클라이언트로 작동할 때 컨트롤러의 인증서를 가져옵니다
+      url: "/sm-settings/import-trusted-certificates-for-controllers-acting-as-client.html"
+    - title: 인증서 해지 확인을 사용합니다
+      url: "/sm-settings/enable-certificate-revocation-checking.html"
+    - title: 신뢰할 수 있는 인증서를 삭제합니다
+      url: "/sm-settings/delete-trusted-certificates.html"
+    - title: 키 관리 서버에서 인증에 CA 서명 인증서를 사용합니다
+      url: "/sm-settings/use-ca-signed-certificates-for-authentication-with-a-key-management-server.html"
+    - title: 키 관리 서버 인증서를 내보냅니다
+      url: "/sm-settings/export-key-management-certificates.html"
+  - title: FAQ 를 참조하십시오
+    entries:
+    - title: 다른 컨트롤러에 액세스할 수 없음 대화 상자가 나타나는 이유는 무엇입니까?
+      url: "/sm-settings/why-does-the-cannot-access-other-controller-dialog-appear.html"
+    - title: 외부 키 관리를 위해 System Manager에 업로드해야 하는 인증서를 어떻게 알 수 있습니까?
+      url: "/sm-settings/how-do-i-know-what-certificates-need-to-be-uploaded-to-system-manager.html"
+    - title: 인증서 해지 확인에 대해 알아야 할 사항은 무엇입니까?
+      url: "/sm-settings/what-do-i-need-to-know-about-certificate-revocation-checking.html"
+    - title: 어떤 유형의 서버에 대해 해지 확인을 사용할 수 있습니까?
+      url: "/sm-settings/what-types-of-servers-will-revocation-checking-be-enabled-for.html"

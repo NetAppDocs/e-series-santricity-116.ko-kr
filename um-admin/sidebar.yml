@@ -1,0 +1,26 @@
+---
+section: um-admin
+title: 기본 인터페이스
+entries:
+- title: Unified Manager 개요
+  entries:
+  - title: 개념
+    entries:
+    - title: 인터페이스 개요
+      url: "/um-admin/home-page-unified.html"
+    - title: 지원되는 브라우저
+      url: "/um-admin/supported-browsers-unified.html"
+- title: Unified Manager 관리
+  entries:
+  - title: 개념
+    entries:
+    - title: 관리자 암호 보호
+      url: "/um-admin/administrator-password-protection-unified.html"
+  - title: 방법
+    entries:
+    - title: admin 암호를 변경합니다
+      url: "/um-admin/change-admin-password-unified.html"
+    - title: 스토리지 배열 암호를 변경합니다
+      url: "/um-admin/change-storage-array-passwords.html"
+    - title: 세션 시간 제한을 관리합니다
+      url: "/um-admin/manage-session-timeouts-unified.html"
