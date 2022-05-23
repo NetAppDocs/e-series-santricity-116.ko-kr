@@ -5,6 +5,8 @@ indexpage:
   tiles:
   - title: 시작하십시오
     links:
+    - title: 새로운 소식
+      url: "/whats-new.html"
     - title: System Manager 인터페이스
       url: "/sm-interface/home-page.html"
     - title: Unified Manager 인터페이스

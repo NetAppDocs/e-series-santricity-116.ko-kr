@@ -1,0 +1,115 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: whats new, new features, 
+summary: SANtricity OS의 새로운 기능 
+---
+= SANtricity OS 11.6의 새로운 기능
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+다음 표에서는 SANtricity OS 11.6의 새로운 기능에 대해 설명합니다.
+
+
+
+== 버전 11.62의 새로운 기능
+
+[cols="35h,~"]
+|===
+| 새로운 기능 | 설명 
+
+
+ a| 
+다운로드 가능한 CLI
+ a| 
+E5700, EF570, E2800, EF280 어레이용 System Manager에는 설정 [시스템 > 애드온] 페이지의 링크를 통해 SANtricity CLI(Command Line Interface)를 다운로드 및 설치할 수 있는 기능이 포함되어 있습니다. 이는 CLI의 https 기반 버전("Secure CLI"라고도 함)입니다. 이 기능은 이전에 EF600 어레이와 함께 출시되었습니다.
+
+
+
+ a| 
+System Manager 및 Unified Manager의 구성 변경 사항을 미러링합니다
+ a| 
+동기식 및 비동기식 미러링 쌍을 구성하는 작업이 System Manager에서 Unified Manager로 이동되었습니다. 미러링된 쌍을 관리하는 다른 모든 작업은 System Manager에 남아 있습니다.
+
+
+
+ a| 
+새로운 200GB 가능 HIC(EF600 어레이만 해당)
+ a| 
+이 릴리즈에서는 EF600 스토리지 어레이에 새로운 200GB 지원 HIC를 추가합니다. 지원되는 인터페이스는 NVMe/IB, NVMe/RoCE 및 iSER/IB입니다. 또한, 100Gb SRP/IB가 지원됩니다.
+
+
+
+ a| 
+100GB HIC의 추가 옵션(EF600 어레이만 해당)
+ a| 
+기존 100GB HIC에서 iSER/IB 및 SRP/IB 인터페이스가 EF600 스토리지 어레이에 지원됩니다. (이러한 인터페이스는 이미 EF570 및 E5700 어레이에서 지원됩니다.)
+
+
+
+ a| 
+System Manager에서 메일 서버를 삭제합니다
+ a| 
+System Manager에서는 메일 서버를 구성할 수 있었지만 쉽게 제거할 수 있는 메커니즘이 없었습니다. 이번 릴리즈에서는 System Manager의 메일 서버 구성을 알림에서 제거할 수 있으므로 알림이 더 이상 이 메일 서버와 연결된 이메일 주소로 전송되지 않습니다.
+
+
+
+ a| 
+System Manager에서 풀 및 볼륨 그룹(SSD 드라이브만 해당)에 대한 용량 조정 최적화
+ a| 
+SSD 드라이브의 경우 System Manager에서 풀 설정 및 볼륨 그룹 설정을 위한 새로운 최적화 용량 슬라이더를 사용할 수 있습니다. 슬라이더를 사용하여 사용 가능한 용량과 SSD 쓰기 성능 및 드라이브 마모 수명 간의 균형을 조정할 수 있습니다.
+
+
+
+ a| 
+System Manager의 새로운 호스트 유형
+ a| 
+System Manager에서 새 호스트를 생성하는 경우, 제시된 호스트 옵션은 보다 나은 지침을 제공하기 위해 세 가지 범주, 즉 Common, Uncommon 및 Use Only if Directed로 구성됩니다.
+
+|===
+
+
+== 버전 11.61의 새로운 기능
+
+[cols="35h,~"]
+|===
+| 새로운 기능 | 설명 
+
+
+ a| 
+EF600의 파이버 채널 지원
+ a| 
+이번 릴리즈에는 EF600 스토리지 시스템에 대한 파이버 채널 호스트 지원이 추가되었습니다. 이는 EF600에서 지원하는 첫 번째 SCSI 호스트로, 처음에 모든 NVMe over Fabrics 호스트 프로토콜과 함께 출시되었습니다. EF600의 단일 컨트롤러는 System Manager에서 확인 및 관리할 수 있습니다. Unified Manager에서 여러 EF600 스토리지 시스템을 확인 및 관리할 수 있습니다.
+
+
+
+ a| 
+admin 사용자의 암호 요구 사항입니다
+ a| 
+Unified Manager에 처음 로그인할 경우 이제 관리자 사용자의 암호를 입력해야 합니다. 더 이상 기본 "admin" 암호가 없습니다.
+
+|===
+
+
+== 버전 11.60의 새로운 기능
+
+[cols="35h,~"]
+|===
+| 새로운 기능 | 설명 
+
+
+ a| 
+새로운 스토리지 시스템 모델 – EF600
+ a| 
+이 릴리즈는 새로운 EF600 All-Flash 스토리지 시스템을 제공합니다. EF600에는 NVMe-oF 호스트 인터페이스 및 NVMe SSD가 포함됩니다.
+
+EF600은 처리량을 대폭 높이고 지연 시간을 줄여 줍니다. 지원되는 호스트 인터페이스에는 System Manager에서 구성할 수 있는 NVMe over IB, NVMe over RoCE 및 NVMe over FC가 포함됩니다. Unified Manager에서 여러 EF600 스토리지 시스템을 확인 및 관리할 수 있습니다.
+
+
+
+| 다운로드 가능한 CLI | System Manager에는 설정 [시스템 > 추가 기능] 페이지의 링크를 통해 SANtricity CLI(Command Line Interface)를 다운로드하고 설치할 수 있는 기능이 포함되어 있습니다. 이 버전은 CLI의 https 기반 버전입니다. 기존 SANtricity 스토리지 관리자 패키지에는 CLI도 계속해서 포함됩니다. 
+|===
