@@ -8,11 +8,11 @@ settings:
     harmony_enabled: false
   versions:
   - name: SANtricity 소프트웨어
-    url: "/e-series-santricity"
-    version-number: '11.7'
-  - name: SANtricity 소프트웨어
     url: "/e-series-santricity-116"
     version-number: '11.6'
+  - name: SANtricity 소프트웨어
+    url: "/e-series-santricity"
+    version-number: '11.7'
   - name: SANtricity 소프트웨어
     url: "/e-series-santricity-115"
     version-number: '11.5'
