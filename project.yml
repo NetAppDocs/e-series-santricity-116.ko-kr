@@ -36,3 +36,6 @@ sidebar:
     - section: um-certificates
   - title: 법적 고지
     url: "/legal-notices.html"
+product-family:
+  name: E-Series
+  repo: e-series-family
