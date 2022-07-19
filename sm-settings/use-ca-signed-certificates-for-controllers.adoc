@@ -80,7 +80,7 @@ CSR 요청을 처음 생성할 때 * 이 단계 건너뛰기 * 링크를 클릭�
 
 . 다운로드한 CSR 파일을 찾습니다. 폴더 위치는 브라우저에 따라 다릅니다.
 . CSR 파일을 CA에 제출하고 서명된 인증서를 PEM 형식으로 요청합니다.
-. CA가 인증서를 반환할 때까지 기다린 다음 로 이동합니다 <<Step 2: Import signed certificates for controllers>>.
+. CA가 인증서를 반환할 때까지 기다린 다음 로 이동합니다  2: Import signed certificates for controllers.
 
 
 
