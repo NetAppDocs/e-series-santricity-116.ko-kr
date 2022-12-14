@@ -41,4 +41,5 @@ Add Syslog Server 대화 상자가 열립니다.
 ====
 
 
+.결과
 syslog 서버 주소가 테이블에 나타납니다.

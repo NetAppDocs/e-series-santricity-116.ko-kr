@@ -7493,4 +7493,5 @@
   <block id="3975daee7f1db295a72280ffe0739e54" category="cell">System Manager에는 설정 [시스템 &gt; 추가 기능] 페이지의 링크를 통해 SANtricity CLI(Command Line Interface)를 다운로드하고 설치할 수 있는 기능이 포함되어 있습니다. 이 버전은 CLI의 https 기반 버전입니다. 기존 SANtricity 스토리지 관리자 패키지에는 CLI도 계속해서 포함됩니다.</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
   <block id="c62c395ffcd8aa3e5d38fe7155d2f510" category="sidebar">SANtricity 소프트웨어</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">결과</block>
 </blocks>
